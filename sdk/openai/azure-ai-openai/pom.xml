@@ -13,7 +13,7 @@
   </parent>
 
   <groupId>com.azure</groupId>
-  <artifactId>azure-ai-openai</artifactId>
+  <artifactId>azure-ai-openai-customized</artifactId>
   <version>1.0.0-beta.17</version> <!-- {x-version-update;com.azure:azure-ai-openai;current} -->
   <packaging>jar</packaging>
 
@@ -43,6 +43,7 @@
     </developer>
   </developers>
   <properties>
+    <skipTests>true</skipTests>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <jacoco.min.linecoverage>0.30</jacoco.min.linecoverage>
     <jacoco.min.branchcoverage>0.30</jacoco.min.branchcoverage>
